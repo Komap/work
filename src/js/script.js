@@ -1,8 +1,4 @@
 
-
-@@include('./bootstrap/bootstrap.bundle.min.js');
-
-
 document.addEventListener('DOMContentLoaded', () => {
    // конечная дата, например 1 июля 2021
    const deadline = (function(y, m, d) { return new Date(y, m-1, d); })(2021, 10, 18);
